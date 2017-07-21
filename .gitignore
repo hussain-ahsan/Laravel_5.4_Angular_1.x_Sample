@@ -12,3 +12,6 @@ npm-debug.log
 /public/js/app.js
 /public/css/app.css
 /public/mix-manifest.json
+/public/build/
+/public/js/all.js
+/public/js/all.js.map

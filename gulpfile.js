@@ -23,8 +23,7 @@ elixir(function(mix) {
   mix.styles([
     'bootstrap.min.css',
     'bootstrap-theme.min.css',
-    'jquery.fancybox-plus.css',
-    'styles.css'
+    'jquery.fancybox-plus.css'
   ]);
 });
 elixir(function(mix) {
@@ -50,17 +49,7 @@ elixir(function(mix) {
     path.angularLib + 'factory.js',
     path.angularLib + 'directive.js',
     path.angularLib + 'angular-fancybox-plus.js',
-    path.angularLib + 'angular-step.js',
-    path.angularLib + 'controllers/DemandRequestControllers.js',
-    path.angularLib + 'controllers/AircraftControllers.js',
-    path.angularLib + 'controllers/UserControllers.js',
-    path.angularLib + 'controllers/HomeControllers.js',
-    path.angularLib + 'controllers/BookingControllers.js',
-    path.angularLib + 'controllers/MemberControllers.js',
-    path.angularLib + 'controllers/FlightControllers.js',
-    path.angularLib + 'controllers/RouteControllers.js',
-    path.angularLib + 'controllers/AirportController.js',
-    path.angularLib + 'controllers/LayoutControllers.js'
+    path.angularLib + 'controllers/HomeControllers.js'
   ]);
 });
 
@@ -71,7 +60,7 @@ elixir(function(mix) {
 
 elixir(function(mix) {
   mix.browserSync({
-    proxy: 'app.app',
+    proxy: '',
     open:   false
   });
 });
