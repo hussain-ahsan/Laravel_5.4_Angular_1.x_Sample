@@ -49,7 +49,8 @@ elixir(function(mix) {
     path.angularLib + 'factory.js',
     path.angularLib + 'directive.js',
     path.angularLib + 'angular-fancybox-plus.js',
-    path.angularLib + 'controllers/HomeControllers.js'
+    path.angularLib + 'controllers/HomeControllers.js',
+    path.angularLib + 'controllers/TestControllers.js'
   ]);
 });
 
